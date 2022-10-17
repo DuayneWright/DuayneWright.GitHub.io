@@ -1,7 +1,22 @@
-body{
+body
+{
     background: rgba(5, 81, 5, 0.7);
 }
-h1{
+
+.assignment{
+    display:flex;
+    padding:10px;
+    margin: 10px;
+    background: green;
+}
+
+.assignment img{
+    width:200px;
+    padding:10px;
+}
+
+h1
+{
     color: rgba(239, 239, 239, 0.69);
     text-align: center;
 }
