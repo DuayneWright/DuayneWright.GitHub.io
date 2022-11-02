@@ -1,22 +1,41 @@
 body
 {
-    background: rgba(5, 81, 5, 0.7);
+    background: #F2CA99;
 }
 
 .assignment{
     display:flex;
     padding:10px;
     margin: 10px;
-    background: green;
+    background: #A62121;
+    border-radius: 25px;
 }
 
 .assignment img{
     width:400px;
-    padding:10px;
+    margin: 10px;
+    border: 4px dashed #423259;
+}
+
+.assignment img:hover{
+    border: 4px dashed purple;
 }
 
 h1
 {
-    color: rgba(239, 239, 239, 0.69);
+    color: #36736D;
     text-align: center;
+}
+
+h1:hover
+{
+    color: purple;
+
+a {
+    text-decoration:none;
+    color:#AFEEEE;
+}
+
+a:hover {
+    color: purple;
 }
