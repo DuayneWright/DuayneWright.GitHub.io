@@ -3,18 +3,25 @@ body
     background: #F2CA99;
 }
 
+.assignments{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .assignment{
-    display:flex;
-    padding:10px;
+    width: 22%;
+    padding:20px 10px;
     margin: 10px;
     background: #A62121;
     border-radius: 25px;
 }
 
 .assignment img{
-    width:400px;
+    width:250px;
     margin: 10px;
     border: 4px dashed #423259;
+    display: block;
+    margin:auto;
 }
 
 .assignment img:hover{
@@ -30,6 +37,10 @@ h1
 h1:hover
 {
     color: purple;
+}
+
+h2{
+    text-align: center;
 }
 
 a{
